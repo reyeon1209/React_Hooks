@@ -17,3 +17,5 @@ export const useNotification = (title, options) => {
   };
   return fireNotif;
 };
+
+export default useNotification;

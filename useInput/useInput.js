@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export const useInput = (initialValue, validator) => {
   // input을 update
   const [value, setValue] = useState(initialValue);
@@ -15,3 +17,5 @@ export const useInput = (initialValue, validator) => {
   };
   return { value, onChange };
 };
+
+export default useInput;

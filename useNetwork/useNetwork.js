@@ -19,3 +19,5 @@ export const useNetwork = (onChange) => {
   }, []);
   return status;
 };
+
+export default useNetwork;

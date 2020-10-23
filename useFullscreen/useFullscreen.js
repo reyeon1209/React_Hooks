@@ -36,3 +36,5 @@ export const useFullscreen = (callback) => {
   };
   return { element, triggerFull, exitFull };
 };
+
+export default useFullscreen;

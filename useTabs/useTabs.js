@@ -10,3 +10,5 @@ export const useTabs = (initialTab, allTabs) => {
     changeItem: setCurrentIndex
   };
 };
+
+export default useTabs;

@@ -17,3 +17,5 @@ export const useHover = onHover => {
     }, []);
     return element;
 }
+
+export default useHover;

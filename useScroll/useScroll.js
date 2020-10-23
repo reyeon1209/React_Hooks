@@ -15,3 +15,5 @@ export const useScroll = () => {
   }, []);
   return state;
 };
+
+export default useScroll;
